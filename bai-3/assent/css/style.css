@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: silver;
+}
+.card {
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    margin: auto;
+
+
+}
+.head {
+    width: 100%;
+    /* height: 50px;
+    background-color: aqua; */
+    display: flex;
+    
+    
+}
+
+.head-left {
+    width: 20%;
+    height: 50px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.head-left i {
+    font-size: 45px;
+}
+    
+
+.head-center {
+    width: 60%;
+    height: 50px;
+    /* background-color:blanchedalmond; */   
+}
+.head-center-conten {
+    font-size: 30px;
+
+}
+
+.head-right {
+    width: 20%;
+    height: 50px;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-right i {
+    font-size: 30px;
+}
+
+
+
+.body {
+    width: 100%;
+    height: 250px;
+    background-color: aliceblue;
+}
+.body img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+
+}
+.foot {
+    width: 100%;
+    height: 250px;
+    /* background-color: wheat; */
+}
+
+.content {
+    padding: 20px;
+    margin: 20px;
+}
+
+.intem {
+    font-size: 40px;
+    display: flex;
+    /* align-items:self-end;    */
+}
+
+.intem-2 {
+    font-size: 40px;
+    display:flex;
+    align-items: flex-end;
+    justify-content:flex-end;
+}
+
+
