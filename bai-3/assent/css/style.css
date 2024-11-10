@@ -85,7 +85,8 @@ body {
 .intem {
     font-size: 40px;
     display: flex;
-    /* align-items:self-end;    */
+    justify-content: flex-start; 
+    align-items: flex-end;  
 }
 
 .intem-2 {
