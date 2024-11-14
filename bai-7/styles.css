@@ -30,6 +30,7 @@ ul li ul.list-2 {
     position: absolute;
     z-index: 99;
     display: none;
+    list-style: none;
    
 }
 
@@ -44,6 +45,7 @@ ul li ul li ul.list-3 {
     position: absolute;
     z-index: 999;
     display: none;
+    list-style: none;
    
 }
 
