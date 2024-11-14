@@ -32,6 +32,20 @@ ul li ul.list-2 {
    
 }
 
+
 ul li:hover ul.list-2 {
+    display:inline;
+}
+
+ul li ul li ul.list-3 {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 999;
+    display: none;
+   
+}
+
+ul li ul li ul.list-3 {
     display:inline;
 }
