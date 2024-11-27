@@ -532,8 +532,17 @@ body {
 
 /*foot*/
 
-
-
+.rotate {
+    
+    position:relative;
+    bottom: 4700px;
+    right: 760px;
+}
+.rotate h4 {
+    
+    font-size: 45px;
+    transform: rotate(-90deg);
+}
 
 
 
